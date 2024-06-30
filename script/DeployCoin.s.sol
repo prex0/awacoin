@@ -16,7 +16,7 @@ contract DeployCoin is Script {
         }(
             "awaCoin for IVS",
             "awaIVS",
-            address(0x8a0a9eaD7dF2857ae69bBE6Fcd555aFA7c222bEf)
+            address(0x4b748969Ab77C9d09AE07b4282A151B82F96311B)
         );
         console2.log("awaCoin Deployed:", address(awaCoin));
 
