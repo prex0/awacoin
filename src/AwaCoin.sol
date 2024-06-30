@@ -6,7 +6,8 @@ import {ERC20} from "openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 import {Ownable} from "openzeppelin-contracts/contracts/access/Ownable.sol";
 
 /**
- * @notice Awacoins
+ * @title AwaCoin
+ * @notice AwaCoin is a simple ERC20 token with permit.
  */
 contract AwaCoin is ERC20Permit, Ownable {
     constructor(string memory _name, string memory _symbol, address _owner)
